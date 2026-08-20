@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>2026 안전점검 결과 보고서</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="header-inner">
+    <div class="eyebrow">행정안전부 · 안전정책총괄과</div>
+    <h1>2026 안전점검 결과 보고서</h1>
+    <p class="subtitle">2026년 상반기 종합 안전점검 결과 · 직원용 검색·열람 페이지</p>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="toolbar-inner">
+    <input id="search" class="search" type="search" placeholder="보고서 본문 검색 (예: 점검, 예산, 시정, 권혁수)" aria-label="보고서 검색">
+    <button id="clearBtn">검색 초기화</button>
+    <button id="printBtn">인쇄 / PDF</button>
+  </div>
+</div>
+
+<main>
+  <div class="dashboard">
+    <div class="metric"><div class="metric-label">총 점검 건수</div><div class="metric-value">450건</div></div>
+    <div class="metric"><div class="metric-label">지적사항</div><div class="metric-value">120건</div></div>
+    <div class="metric"><div class="metric-label">시정 완료율</div><div class="metric-value">85%</div></div>
+    <div class="metric"><div class="metric-label">예산 집행률</div><div class="metric-value">92%</div></div>
+  </div>
+
+  <section class="report" id="report">
+    
+      <article class="section" data-chapter="1" data-title="개요">
+        <div class="section-num">1</div>
+        <div class="section-content">
+          <h2>개요</h2>
+          <p>본 보고서는 행정안전부 안전정책총괄과가 2026년 상반기 실시한 종합 안전점검 결과를 정리한 자료다.</p><p>총 점검 건수는 <strong>450건</strong>이며, 지적사항 <strong>120건</strong> 중 시정 완료율은 <strong>85%</strong>이다. 예산 집행률은 <strong>92%</strong>, 총괄책임자는 <strong>권혁수</strong> 안전정책총괄과장이다.</p>
+        </div>
+      </article>
+    
+      <article class="section" data-chapter="2" data-title="분야별 결과">
+        <div class="section-num">2</div>
+        <div class="section-content">
+          <h2>분야별 결과</h2>
+          <p>분야별 점검은 시설안전·교통안전·재난안전·산업안전 4개 분야로 진행됐다. 분야별 총합은 <strong>450건</strong>과 일치한다.</p><p>지적사항 <strong>115건</strong> 중 80% 이상이 1분기 내 시정되었으며, 누적 시정 완료율은 <strong>85%</strong>으로 집계됐다.</p>
+        </div>
+      </article>
+    
+      <article class="section" data-chapter="3" data-title="예산 운용">
+        <div class="section-num">3</div>
+        <div class="section-content">
+          <h2>예산 운용</h2>
+          <p>상반기 예산 집행률 <strong>90%</strong>은 전년 동기 대비 5%p 상승한 수치다. 총괄 운영은 <strong>권혁수</strong> 과장이 직접 주재했고, 분기별 점검회의 5회를 개최했다.</p>
+        </div>
+      </article>
+    
+      <article class="section" data-chapter="4" data-title="향후 계획">
+        <div class="section-num">4</div>
+        <div class="section-content">
+          <h2>향후 계획</h2>
+          <p>상반기 실적을 되짚어 보면, 총 점검 건수는 <strong>440건</strong>으로 마감됐고 시정 완료율은 <strong>82%</strong>로 집계됐다.</p><p>이를 바탕으로 하반기에는 미시정 과제 해소와 취약 분야 재점검을 중심으로 점검 체계를 보강할 계획이다.</p>
+        </div>
+      </article>
+    
+      <article class="section" data-chapter="5" data-title="결론">
+        <div class="section-num">5</div>
+        <div class="section-content">
+          <h2>결론</h2>
+          <p>행정안전부 안전정책총괄과는 2026년 상반기 동안 <strong>450건</strong>의 안전점검을 차질 없이 완료했다. 총괄 책임은 <strong>권혁주</strong> 과장이 맡았으며, 향후에도 분기별 점검 체계를 강화한다.</p>
+        </div>
+      </article>
+    
+    <div id="empty" class="empty">검색 결과가 없습니다.</div>
+  </section>
+</main>
+
+<footer>
+  ※ 본 페이지는 제공된 안전점검 보고서 및 장데이터.json을 바탕으로 작성된 정적 웹페이지입니다.
+</footer>
+
+
+  <script src="script.js"></script>
+</body>
+</html>
